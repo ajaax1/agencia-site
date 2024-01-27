@@ -1,10 +1,10 @@
 <template>
     <section class="d-flex justify-content-center align-items-center second-section">
-        <div v-motion-slide-visible-right  class="d-flex justify-content-between align-items-center">
-            <img src="../assets/img/LOGO1.png" alt="">
-            <img src="../assets/img/LOGO2.png" alt="">
-            <img src="../assets/img/LOGO4.png" alt="">
-            <img src="../assets/img/LOGO5.png" alt="">
+        <div  class="d-flex justify-content-between align-items-center">
+            <img v-motion-slide-visible-right src="../assets/img/LOGO1.png" alt="">
+            <img v-motion-slide-visible-right src="../assets/img/LOGO2.png" alt="">
+            <img v-motion-slide-visible-right src="../assets/img/LOGO4.png" alt="">
+            <img v-motion-slide-visible-right src="../assets/img/LOGO5.png" alt="">
         </div>
     </section>
 </template>

@@ -17,7 +17,7 @@ export default {
 <style>
 .four-section {
     width: 100%;
-    background-image: url(../assets/img/BANNER.PNG);
+    background-image: url(../assets/img/banner.PNG);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
