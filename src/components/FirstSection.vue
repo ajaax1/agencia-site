@@ -19,7 +19,7 @@ export default {
     background-color: #0F3FD3;
     color: white;
     margin-bottom: 5rem;
-    background-image: url(../assets/img/banner.png);
+    background-image: url(/banner.png);
     background-position: center;
     background-size: cover;
     background-repeat: repeat;
