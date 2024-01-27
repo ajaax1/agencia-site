@@ -1,5 +1,5 @@
 <template>
-    <section class="seventh-section d-flex justify-content-center">
+    <section id="seventh-section" class="seventh-section d-flex justify-content-center">
         <div class="seventh-section-div d-flex flex-column justify-content-center ">
             <h1>Entre em contato</h1>
             <form class="d-flex flex-column justify-content-center align-items-center" action="">

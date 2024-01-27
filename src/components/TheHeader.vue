@@ -4,11 +4,13 @@
             <img class="logo" src="../assets/img/logoagência.png" alt="">
             <nav class="d-flex align-items-center gap-4 first-nav">
                 <ul class="list d-flex gap-3 align-items-center">
-                    <li><a class="active" href="">Início</a></li>
-                    <li><a class="active" href="">Por que nós?</a></li>
-                    <li><a class="active" href="">Depoimentos</a></li>
+                    <li><a class="active" href="#first-section">Início</a></li>
+                    <li><a class="active" href="#third-section">Por que nós?</a></li>
+                    <li><a class="active" href="#sixth-section">Depoimentos</a></li>
                 </ul>
-                <button class="contact-button">Entre em contato</button>
+                <a href="#seventh-section">
+                    <button class="contact-button">Entre em contato</button>
+                </a>
             </nav>
             <span @click="switchIcon" class="menu material-symbols-outlined notranslate ">
                 {{ menu }}
@@ -16,9 +18,9 @@
         </div>
         <nav :class="{ 'second-nav': true, 'nav-animation': isNavAnimation }">
             <ul>
-                <li><a class="" href="">Início</a></li>
-                <li><a class="" href="">Por que nós?</a></li>
-                <li><a class="" href="">Depoimentos</a></li>
+                <li><a class="" href="#first-section">Início</a></li>
+                <li><a class="" href="#third-section">Por que nós?</a></li>
+                <li><a class="" href="#sixth-section">Depoimentos</a></li>
             </ul>
         </nav>
     </header>
@@ -29,7 +31,7 @@ export default {
     data() {
         return {
             menu: "menu",
-            isNavAnimation:false
+            isNavAnimation: false
         };
     },
     methods: {
@@ -75,7 +77,7 @@ nav ul {
     color: white;
 }
 
-.contact-button:hover  {
+.contact-button:hover {
     background-color: #0d34a7;
 }
 
@@ -154,13 +156,15 @@ li a.active:hover::before {
     .menu {
         display: none !important;
     }
-    .second-nav{
+
+    .second-nav {
         display: none;
     }
 
 }
+
 @media only screen and (max-width: 300px) {
-    .logo{
+    .logo {
         width: 13rem;
     }
 }

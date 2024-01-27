@@ -1,5 +1,5 @@
 <template>
-    <section class="first-section d-flex justify-content-center align-items-center">
+    <section id="first-section" class="first-section d-flex justify-content-center align-items-center">
         <div v-motion-fade >
             <h1>Promova experiências aos seus clientes</h1>
             <p>E veja resultados expressivos dia após dia</p>

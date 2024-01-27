@@ -1,5 +1,5 @@
 <template>
-    <section class="third-section d-flex justify-content-center align-items-center">
+    <section id="third-section" class="third-section d-flex justify-content-center align-items-center">
         <div class="div-third-section gap-2">
             <h1>Por que nós?</h1>
             <p>Uma experiência incrível para seus clientes, resultados espetaculares para sua empresa.</p>

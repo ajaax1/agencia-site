@@ -17,7 +17,7 @@
                         <p>Acreditamos que trabalhos criativos são os que mais se destacam em meio a multidão. Saia do
                             feijão com arroz.</p>
                     </li>
-                    <button>Entrar em contato</button>
+                    <a href="#seventh-section"><button>Entrar em contato</button></a>
                 </ul>
             </div>
             <img v-motion-slide-visible-bottom class="fifth-section-image" src="../assets/img/IMAGEM1.png" alt="">
@@ -123,6 +123,7 @@ ul button:hover {
     .fifth-section-div {
         margin-bottom: 5rem;
     }
+
     .fifth-section-div img {
         display: none;
     }

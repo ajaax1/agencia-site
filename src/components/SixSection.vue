@@ -1,5 +1,5 @@
 <template>
-    <section class="sixth-section d-flex justify-content-center align-items-center">
+    <section id="sixth-section" class="sixth-section d-flex justify-content-center align-items-center">
         <div class="sixth-section-div">
             <h1>Depoimentos</h1>
             <div class="div-person-cards d-flex justify-content-between align-items-center gap-4 ">

@@ -3,7 +3,7 @@
         <div class="four-section-div d-flex flex-column align-items-center justify-content-center gap-2">
             <h1>Vamos começar seu projeto?</h1>
             <p>Fale com um consultor e tire sua idéia do papel.</p>
-            <button>Entrar em contato</button>
+            <a href="#seventh-section"><button>Entrar em contato</button></a>
         </div>
     </section>
 </template>
