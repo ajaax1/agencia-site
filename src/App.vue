@@ -7,6 +7,7 @@ import FourSection from './components/FourSection.vue'
 import FiveSection from './components/FiveSection.vue'
 import SixSection from './components/SixSection.vue'
 import SevenSection from './components/SevenSection.vue'
+import Footer from './components/Footer.vue'
 </script>
 
 <template>
@@ -20,6 +21,7 @@ import SevenSection from './components/SevenSection.vue'
       <FiveSection></FiveSection>
       <SixSection></SixSection>
       <SevenSection></SevenSection>
+      <Footer></Footer>
     </main>
   </div>
 </template>

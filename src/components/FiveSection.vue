@@ -5,22 +5,22 @@
                 <h1>Benefícios para você</h1>
                 <ul>
                     <li class="image-text">
-                        <img src="../assets/img/checklist.png" alt="">
+                        <img v-motion-slide-visible-bottom src="../assets/img/checklist.png" alt="">
                         <p>Garantia de resultados, pague de acordo com o desempenho do seu projeto ou campanha.</p>
                     </li>
                     <li class="image-text">
-                        <img src="../assets/img/checklist.png" alt="">
+                        <img v-motion-slide-visible-bottom src="../assets/img/checklist.png" alt="">
                         <p>Equipe qualificada. Nossos profissionais possuem vasta experiência nacional e no exterior.</p>
                     </li>
                     <li class="image-text">
-                        <img src="../assets/img/checklist.png" alt="">
+                        <img v-motion-slide-visible-bottom src="../assets/img/checklist.png" alt="">
                         <p>Acreditamos que trabalhos criativos são os que mais se destacam em meio a multidão. Saia do
                             feijão com arroz.</p>
                     </li>
                     <button>Entrar em contato</button>
                 </ul>
             </div>
-            <img class="fifth-section-image" src="../assets/img/IMAGEM1.png" alt="">
+            <img v-motion-slide-visible-bottom class="fifth-section-image" src="../assets/img/IMAGEM1.png" alt="">
         </div>
     </section>
 </template>
