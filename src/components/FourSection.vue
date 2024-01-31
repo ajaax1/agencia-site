@@ -28,7 +28,7 @@ export default {
 }
 
 .four-section div {
-    width: 1250px;
+    max-width: 1250px;
 }
 
 .four-section button {

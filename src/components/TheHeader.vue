@@ -61,7 +61,8 @@ header {
 }
 
 .header-div {
-    width: 1250px;
+    max-width: 1250px;
+    width: 100%;
 }
 
 nav ul {

@@ -39,7 +39,7 @@ export default {
 
 .fifth-section-div {
     gap: 1rem;
-    width: 1250px;
+    max-width: 1250px;
 }
 
 .fifth-section-div h1 {

@@ -24,7 +24,7 @@ export default {
 }
 
 .seventh-section div {
-    width: 1250px;
+    max-width: 1250px;
     padding: 1rem;
 }
 

@@ -4,19 +4,19 @@
             <h1>Por que nós?</h1>
             <p>Uma experiência incrível para seus clientes, resultados espetaculares para sua empresa.</p>
             <div class="cards-div d-flex justify-content-around align-items-center gap-2">
-                <div v-motion-slide-visible-left class="card">
+                <div v-motion-pop-visible-once class="card">
                     <img src="../assets/img/ICONE1.png" alt="">
                     <h2>Planejamento impecável</h2>
                     <p>Conte com a Agência Bold como sua parceira no planejamento de seus projetos, conteúdos, campanhas,
                         estratégias. Nossos profissionais altamente qualificados estão preparados para qualquer desafio.</p>
                 </div>
-                <div v-motion-slide-visible-left class="card">
+                <div v-motion-pop-visible-once class="card">
                     <img src="../assets/img/ICONE2.png" alt="">
                     <h2>Pague pelos resultados</h2>
                     <p>Aqui você paga de acordo com o retorno que ganha em cada campanha. Não deixe a oportunidade de ter
                         melhores resultados para amanhã. Entre em contato e vamos conversar sobre sua necessidade.</p>
                 </div>
-                <div v-motion-slide-visible-left class="card">
+                <div v-motion-pop-visible-once class="card">
                     <img src="../assets/img/ICONE3.png" alt="">
                     <h2>Suporte e acompanhamento</h2>
                     <p>Mesmo após terminarmos nosso projeto ou estratégia, nós da Agência Bold acompanharemos os futuros
@@ -43,7 +43,7 @@ export default {
 }
 
 .div-third-section {
-    width: 1250px;
+    max-width: 1250px;
 
 }
 

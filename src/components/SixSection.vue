@@ -46,7 +46,7 @@ export default {
 }
 
 .sixth-section-div {
-    width: 1250px;
+    max-width: 1250px;
     padding: 0.5rem;
 }
 
@@ -67,7 +67,7 @@ export default {
     background-color: #70707016;
     border-radius: 10px;
     text-align: center;
-    height: 20rem;
+    min-height: 20rem;
     padding: 0.5rem;
 }
 
